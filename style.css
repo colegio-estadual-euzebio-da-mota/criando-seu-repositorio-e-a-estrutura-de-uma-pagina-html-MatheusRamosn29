@@ -5,10 +5,55 @@
 
 body {
     background-color: gray;
+    color: white;
+}
+
+#firstSection {
+    background-image: url(imgs/firstSection___a.png);
+    height: 100vh;
+}
+
+#secondSection {
+    background-image: url(imgs/Section.png);
+}
+
+header {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 200px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 18px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    text-align: center;
+    background: hsba(0, 0%, 100%, 1);
+}
+
+#main1 {
+    padding: 10px;
+    margin-top: 5%;
 }
 
 .imgLogo {
-    width: 275px;
+    width: 295px;
 }
 
 #arrowToTheTop {
