@@ -11,13 +11,13 @@ body {
 }
 
 #firstSection {
-    background-image: url(imgs/firstSection___.png);
+    background-image: url(imgs/firstSection_used.png);
     background-size: cover;
     height: 100vh;
 }
 
 #secondSection {
-    background-image: url(imgs/secondSection.png);
+    background-image: url(imgs/secondSection_used.png);
     background-size: cover;
 }
 
@@ -104,9 +104,9 @@ a:hover {
 }
 
 #sections {
-    padding: 50px;
-    padding-top: 95px;
-    padding-bottom: 95px;
+    padding: 60px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,27 +135,27 @@ a:hover {
 }
 
 #nationalFoods div {
-    background-image: url(imgs/sectionImgs_/ComidasNacionais.png);
+    background-image: url(imgs/sectionImgs_used/ComidasNacionais.png);
 }
 
 #internationalFoods div {
-    background-image: url(imgs/sectionImgs_/ComidasInternacionais.png);
+    background-image: url(imgs/sectionImgs_used/ComidasInternacionais.png);
 }
 
 #simpleFoods div {
-    background-image: url(imgs/sectionImgs_/ComidasSimples.png);
+    background-image: url(imgs/sectionImgs_used/ComidasSimples.png);
 }
 
 #veganFoods div {
-    background-image: url(imgs/sectionImgs_/ComidasVeganas.png);
+    background-image: url(imgs/sectionImgs_used/ComidasVeganas.png);
 }
 
 #sweetFoods div {
-    background-image: url(imgs/sectionImgs_/ComidasDoces.png);
+    background-image: url(imgs/sectionImgs_used/ComidasDoces.png);
 }
 
 #saltyFoods div {
-    background-image: url(imgs/sectionImgs_/ComidasSalgados.png);
+    background-image: url(imgs/sectionImgs_used/ComidasSalgados.png);
 }
 
 #upSection, #downSection {
@@ -176,7 +176,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     padding: 12px;
 }
 
